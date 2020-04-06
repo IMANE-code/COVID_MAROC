@@ -1,0 +1,236 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-family: "Cairo", sans-serif;
+  font-weight: 700;
+}
+* body header {
+  background-color: #96c5dc;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background-image: url("../../../Design/Assets/SVG/Merged bar-1.svg");
+  padding: 10px;
+}
+* body header div #lange1 {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  color: #1a519e;
+  border: 1px solid #1a519e;
+  margin: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+}
+* body header div .Conseil__header {
+  margin: 20px;
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
+}
+* body header div .Acceil__header {
+  margin: 20px;
+  font-size: 26px;
+  text-decoration: none;
+  color: #1a519e;
+}
+* body #general {
+  position: absolute;
+  top: 70px;
+  z-index: -10;
+}
+* body #general #section1 {
+  line-height: 40px;
+  width: 100%;
+  padding: 20px;
+  font-size: 23px;
+  text-align: center;
+  margin: auto;
+}
+* body #general #section1 img {
+  width: 500px;
+  padding: 20px;
+}
+* body #general #section1 #h1__section1 {
+  font-size: 30px;
+  color: green;
+}
+* body #general #section1 div {
+  background-color: #1078ad;
+  width: 30%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 40px auto;
+}
+* body #general #section1 div #h2__section1 {
+  font-size: 30px;
+  color: white;
+}
+* body #general #section1 div #p1__section1 {
+  color: #f4cf1b;
+}
+* body #general #demarer {
+  font-size: 23px;
+  width: 500px;
+  height: 45px;
+  background-color: #1078ad;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  text-decoration: none;
+  padding: 10px;
+  margin: 20px;
+}
+* body #section4 {
+  background-color: #1078ad;
+  padding: 20px;
+}
+* body #section4 h1 {
+  font-size: 23px;
+  color: #dce7e7;
+  text-align: center;
+}
+* body #section4 div {
+  display: flex;
+  justify-content: space-around;
+}
+* body #section4 div #article1__section4 {
+  font-size: 20px;
+  color: white;
+}
+* body #section4 div #article1__section4 ul {
+  list-style: none;
+}
+* body #section4 div #article1__section4 ul li::before {
+  content: "•";
+  color: black;
+  font-size: 20px;
+}
+* body #section4 div #article2__section4 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+}
+* body #section4 div #article2__section4 #h21__article2 {
+  font-size: 20px;
+  color: #f4cf1b;
+}
+* body #section4 div #article2__section4 #h22__article2 {
+  font-size: 20px;
+  color: #1078ad;
+  background-color: #f4cf1b;
+  width: 200px;
+  padding: 10px;
+  border-radius: 6px;
+}
+* body #section4 div #article2__section4 a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid #f4cf1b;
+}
+* body aside {
+  text-align: center;
+  padding: 10px;
+  background-color: #96c5dc;
+}
+* body aside h1 {
+  color: #1078ad;
+}
+* body aside button {
+  width: 400px;
+  background-color: #1078ad;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  outline: 0;
+}
+* body #footer1 {
+  width: 100%;
+  display: grid;
+  height: 400px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+* body #footer1 #img__footer1 {
+  text-align: center;
+  width: 100%;
+  grid-row: 1/2;
+  grid-column: 1/4;
+}
+* body #footer1 #div1__footer1 {
+  text-align: center;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+* body #footer1 #div1__footer1 #lange2 {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  color: #1a519e;
+  border: 1px solid #1a519e;
+  margin: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+}
+* body #footer1 #div1__footer1 .Conseil__header {
+  margin: 20px;
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
+}
+* body #footer1 #div1__footer1 .Acceil__header {
+  margin: 20px;
+  font-size: 26px;
+  text-decoration: none;
+  color: #1a519e;
+}
+* body #footer1 #div2__footer1 {
+  text-align: center;
+  line-height: 40px;
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+* body #footer1 #div2__footer1 #h21__div2__footer1 {
+  color: #1078ad;
+  font-size: 20px;
+}
+* body #footer1 #div2__footer1 .h22__div2__footer1 {
+  color: #369d53;
+  font-size: 20px;
+}
+* body #footer1 #p__footer1 {
+  grid-row: 2/3;
+  grid-column: 3/4;
+  width: 550px;
+  margin: 10px;
+  color: #7f7f7f;
+  font-weight: 100px;
+}
+* body #footer2 {
+  height: 60px;
+  background-image: url("../../../Design/Assets/png/En chiffres-30@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/*# sourceMappingURL=finQuise.css.map */
