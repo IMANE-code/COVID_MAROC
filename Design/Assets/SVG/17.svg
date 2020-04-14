@@ -1,0 +1,5 @@
+<svg id="Progress_Bar_1" data-name="Progress Bar 1" xmlns="http://www.w3.org/2000/svg" width="579.951" height="15" viewBox="0 0 579.951 15">
+  <rect id="Rectangle_629" data-name="Rectangle 629" width="541.948" height="13.6" rx="6.8" transform="translate(0 0.964)" fill="#e6f1f7"/>
+  <path id="Rectangle_630" data-name="Rectangle 630" d="M6.8,0H111.431a0,0,0,0,1,0,0V13.6a0,0,0,0,1,0,0H6.8A6.8,6.8,0,0,1,0,6.8v0A6.8,6.8,0,0,1,6.8,0Z" transform="translate(0 0.964)" fill="#1078ad"/>
+  <text id="_17_23" data-name="17/23" transform="translate(562.951 12)" fill="#222" font-size="13" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-16.266" y="0">17/23</tspan></text>
+</svg>
