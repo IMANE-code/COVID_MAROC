@@ -83,16 +83,16 @@
             top: 90px;
             z-index: -10;
             .demarer{
-                        font-size: 23px;
-                        cursor: pointer;
-                        width: 500px;
-                        height: 45px;
-                        background-color: rgb(16,120,173);
-                        color: white;
-                        border-radius: 6px;
-                        border: none;
-                        outline: 0;
-                        margin: 10px;
+                font-size: 23px;
+                cursor: pointer;
+                width: 500px;
+                height: 45px;
+                background-color: rgb(16,120,173);
+                color: white;
+                border-radius: 6px;
+                border: none;
+                outline: 0;
+                margin: 10px;
                     }
             #partieAccueil{
             #section1{
@@ -316,15 +316,14 @@
     #partiequise{
         display: none;
         #quise{
-            height: 100vh;
             padding: 40px;
             text-align: center;
+            height: 100vh;
             #choix{
                 display: flex;
                 justify-content: space-between;
                 margin: auto;
-                width: 600px;
-                    
+                width: 600px;   
                 #choix1{
                     #cercle1{
                         width: 38px;
@@ -332,152 +331,154 @@
                         border-radius: 100%;
                         background-color: rgb(16,120,173);
                         margin: auto;
-                        }
                     }
-                    #choix2{
+                }
+                #choix2{
                       
-                        #cercle2{
-                            width: 40px;
-                            height: 40px;
-                            margin: auto;
-                            border-radius: 100%;
-                            background-color: rgb(244,207,27);
-                            border: 10px solid #9dc9e0;
-                        }    
-                    }
-                    #choix3{
+                    #cercle2{
+                        width: 40px;
+                        height: 40px;
+                        margin: auto;
+                        border-radius: 100%;
+                        background-color: rgb(244,207,27);
+                        border: 10px solid #9dc9e0;
+                    }    
+                }
+                #choix3{
                        
-                        #cercle3{
-                            width: 38px;
-                            height: 38px;
-                            border-radius: 100%;
-                            background-color: rgb(16,120,173);
-                            margin: auto;
-                        }
-                    }
-                    
-                }
-                    #qestion{
-                        font-size: 30px;
-                        color: #5b5b5c;
-                    }
-                    #OuiNon{
-                        width: 50%;
-                        margin: 30px auto;
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-around;
-                        a{
-                        padding: 20px;
-                        border-radius: 5px;
-                        color: rgb(16,120,173);
-                        background-color: white;
-                        border: 2px solid rgb(16,120,173);
-                        text-decoration: none;
-                        }
-                        a:hover{
-                            color: rgb(244,207,27);
-                            background-color: rgb(16,120,173);
-                            }
-                    }
-                    #suivant,#précédent{
-                        padding: 20px;
-                        border-radius: 5px;
-                        color: rgb(16,120,173);
-                        background-color: #bfdff0;
-                        border: 2px solid rgb(16,120,173);
-                        text-decoration: none;
+                    #cercle3{
+                        width: 38px;
+                        height: 38px;
+                        border-radius: 100%;
+                        background-color: rgb(16,120,173);
                         margin: auto;
                     }
-                    #suivant{
-                        float: right;
-                    }
-                    #précédent{
-                        float: left;
-                    }
-                }       
-            #finquise{
-                height: 100vh;
-                padding: 40px;
-                text-align: center;
-                #choix{
-                    display: flex;
-                    justify-content: space-between;
-                    margin: auto;
-                    width: 600px;
-                    
-                    #choix1{
-                        #cercle1{
-                            width: 38px;
-                            height: 38px;
-                            border-radius: 100%;
-                            background-color: rgb(16,120,173); 
-                            margin: auto;
-                        }
-                    }
-                    #choix2{
-                      
-                        #cercle2{
-                            width: 38px;
-                            height: 38px;
-                            border-radius: 100%;
-                            background-color: rgb(16,120,173);
-                            margin: auto;
-                        }    
-                    }
-                    #choix3{
-                       
-                        #cercle3{
-                            width: 40px;
-                            height: 40px;
-                            margin: auto;
-                            border-radius: 100%;
-                            background-color: rgb(244,207,27);;
-                            border: 10px solid #9dc9e0;
-                        }
-                    }
-                    
                 }
-                #resumé__section1{
-                    text-align: center;
-                    background-color: #e3ebeb;
-                    padding: 30px;
-                    margin: 60px;
-                    h1{
-                    font-size: 30px;
-                    color: rgb(16,120,173);
-                    } 
-                    #p2{
-                        color: rgb(16,120,173);
-                    } 
-                    #line-gry{
-                        background-color: #c3caca;
-                        margin: auto;
-                        height: 1px;
-                        width: 70%;
-                    }  
-                }
-                a{
-                        padding: 20px;
-                        border-radius: 5px;
-                        color: rgb(16,120,173);
-                        background-color: #bfdff0;
-                        border: 2px solid rgb(16,120,173);
-                        text-decoration: none;
-                        margin: auto;
-                }    
+                    
+            }   
+            #qestion{
+                font-size: 30px;
+                color: #5b5b5c;
             }
-        }
+            #OuiNon{
+                width: 50%;
+                margin: 30px auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                a{
+                padding: 20px;
+                border-radius: 5px;
+                color: rgb(16,120,173);
+                background-color: white;
+                border: 2px solid rgb(16,120,173);
+                text-decoration: none;
+                }
+                a:hover{
+                    color: rgb(244,207,27);
+                    background-color: rgb(16,120,173);
+                }
+            }
+            #btn__franc{
+                width: 50%;
+               margin: auto;
+                #suivant,#précédent{
+                    position: absolute;
+                    top: 80vh;
+                    padding: 20px;
+                    border-radius: 5px;
+                    color: rgb(16,120,173);
+                    background-color: #bfdff0;
+                    border: 2px solid rgb(16,120,173);
+                    text-decoration: none;
+                    margin: auto;
+                }
+                #suivant{
+                    transform: translate(250%);
+                }
+                #précédent{
+                    transform: translate(-250%);
+
+                }  
+            }
+        } 
             
-            #sectionPresquise{
-                line-height: 40px;
-                padding: 20px;
-                font-size: 23px;
-                text-align: center;
+        #finquise{
+            height: 100vh;
+            padding: 40px;
+            text-align: center;
+            #choix{
+                display: flex;
+                justify-content: space-between;
                 margin: auto;
+                width: 600px;    
+                #choix1{
+                    #cercle1{
+                        width: 38px;
+                        height: 38px;
+                        border-radius: 100%;
+                        background-color: rgb(16,120,173); 
+                        margin: auto;
+                    }
+                }
+                #choix2{  
+                    #cercle2{
+                        width: 38px;
+                        height: 38px;
+                        border-radius: 100%;
+                        background-color: rgb(16,120,173);
+                        margin: auto;
+                    }    
+                }    
+                #choix3{   
+                    #cercle3{
+                        width: 40px;
+                        height: 40px;
+                        margin: auto;
+                        border-radius: 100%;
+                        background-color: rgb(244,207,27);;
+                        border: 10px solid #9dc9e0;
+                    }
+                }        
+            }
+            #resumé__section1{
+                text-align: center;
+                background-color: #e3ebeb;
+                padding: 30px;
+                margin: 60px;
+                h1{
+                font-size: 30px;
+                color: rgb(16,120,173);
+                } 
+                #p2{
+                    color: rgb(16,120,173);
+                } 
+                #line-gry{
+                    background-color: #c3caca;
+                    margin: auto;
+                    height: 1px;
+                    width: 70%;
+                }  
+            }
+            a{
+                    padding: 20px;
+                    border-radius: 5px;
+                    color: rgb(16,120,173);
+                    background-color: #bfdff0;
+                    border: 2px solid rgb(16,120,173);
+                    text-decoration: none;
+                    margin: auto;
+            }    
+        }   
+        #sectionPresquise{
+            line-height: 40px;
+            padding: 20px;
+            font-size: 23px;
+            text-align: center;
+            margin: auto;
             img{
-                width: 500px;
-                padding: 20px;
+            width: 500px;
+            padding: 20px;
             }
             #div__section1{
                 margin: 30px;
@@ -495,6 +496,7 @@
                     margin: auto;
                 }
             }
+                
             #demarer{
                 font-size: 23px;
                 cursor: pointer;
@@ -506,25 +508,36 @@
                 border: none;
                 outline: 0;
                 margin: 10px;
-                    }    
+            }    
         }
         #quiseArab{
             padding: 20px;
-               #div__degChaud{
-             text-align: center;
-             padding: 30px;
-             #degChaud{
+            text-align: center;
+            #explication__quise1{
+                width: 80%;
+                align-items: center;
+                margin: auto;
+                padding: 30px;
+                padding-right: 60px;
+                background-color: rgb(244,207,27);
                 border-radius: 3px;
-                border: 1px solid rgb(16,120,173);
-                
-             }
-             #degChaud::placeholder{
-                 color:rgb(16,120,173);
             }
-             span{
-                 color: rgb(16,120,173);;
-                 font-size: 26px;
-                 }   
+            #div__btn__quise{
+                text-align: center;
+                margin: 40px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            #passer__quise,#pret__quistion{
+                font-size: 23px;
+                text-decoration: none;
+                background-color: rgb(16,120,173);
+                color: white;
+                border-radius: 6px;
+                border: none;
+                padding: 15px;
+                text-align: center;
+                }    
             }
             #img__quise{
                 text-align: center;
@@ -538,60 +551,69 @@
                 color: rgb(127,127,127 )
             }  
             #radio{
-                padding-right:120px;
-                margin: 20px;
+                width: 70%;
+                display: flex;
+                flex-direction: row;
+                margin: 40px auto;
+                div{
+                margin: 40px;    
                 input[type='radio']{
-                 width: 15px;
-                 height: 15px;
+                width: 15px;
+                height: 15px;
                 }
                 input[type='radio']:checked:after {
-                    width: 15px;
-                    height: 15px;
-                    border-radius: 15px;
-                    top: -2px;
-                    left: -1px;
-                    position: relative;
-                    background-color: #ffa500;
-                    content: '';
-                    display: inline-block;
-                    visibility: visible;
-                    border: 3px solid rgb(16,120,173);
+                width: 15px;
+                height: 15px;
+                border-radius: 15px;
+                top: -2px;
+                left: -1px;
+                position: relative;
+                background-color: #ffa500;
+                content: '';
+                display: inline-block;
+                visibility: visible;
+                border: 3px solid rgb(16,120,173);
                 }
                 span{
                 font-size: 26px;
                 color: rgb(127,127,127 );
                 padding-right: 20px;     
                 }
-                    
-            }
-            #explication__quise1{
-                width:80%;
-                align-items: center;
-                margin: auto;
-                padding: 30px;
-                padding-right:60px;
-                background-color:rgb(244,207,27);
-                border-radius: 3px;
-            }
-            #div__btn__quise{
-                text-align: center;
-                 margin: 40px;
-                 display: flex;
-                 flex-wrap: wrap;
-                  justify-content: space-evenly;
-             #passer__quise,#pret__quistion{
-                        font-size: 23px;
-                        text-decoration: none;
-                        background-color: rgb(16,120,173);
-                        color: white;
-                        border-radius: 6px;
-                        border: none;
-                        padding: 15px;
-                        text-align: center;
-                }    
             }
         }
-         #finquises{
+                
+            #div__degChaud{
+                text-align: center;
+                padding: 30px;
+            #degChaud{
+                border-radius: 3px;
+                border: 1px solid rgb(16,120,173);
+                
+             }
+            #degChaud::placeholder{
+                color: rgb(16,120,173);
+            }
+            span{
+                color: rgb(16,120,173);
+                font-size: 26px;
+            }   
+            }
+            #img__quise{
+                text-align: center;
+                img{
+                width: 500px;
+                }
+            }
+            #quistion{
+                text-align: center;
+                font-size: 30px;
+                color: rgb(127,127,127);
+            }  
+                    
+            }
+            
+        }
+        #finquises{
             line-height: 40px;
             width: 100%;
             padding: 20px;
@@ -607,20 +629,21 @@
                 color: green;
             }
             div{
-                background-color:rgb(16,120,173);
+                background-color: rgb(16,120,173);
                 width: 30%;
                 padding: 20px;
-                border-radius:10px;
+                border-radius: 10px;
                 margin: 40px auto; 
                 #h2__finquises{
                     font-size: 30px;
                     color: white;
                 } 
-              #p1__finquises{
+            #p1__finquises{
                 color: rgb(244,207,27);           
                 }    
             }
          }
+    }
             #section4{
                 background-color: rgb(16,120,173);
                 padding: 20px;
@@ -746,6 +769,5 @@
                 background-size: 100%;
             }
         }
-    }
 }
 
