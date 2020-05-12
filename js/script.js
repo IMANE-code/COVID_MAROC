@@ -1,34 +1,15 @@
-function Accueil(){
-    let  partieAccueil = document.getElementById('partieAccueil');
-    let  partieConseil = document.getElementById('partieConseil');
-    let partiequise = document.getElementById("partiequise");
 
-    partiequise.style.display="none";
-    partieConseil.style.display="none";
-    partieAccueil.style.display="block";
-  }
-  function Conseil(){
-    let  partieAccueil = document.getElementById('partieAccueil');
-    let  partieConseil = document.getElementById('partieConseil');
-    let partiequise = document.getElementById("partiequise");
-
-    partiequise.style.display="none";
-    partieAccueil.style.display="none";
-    partieConseil.style.display="block";
-  }
   function demmarerTest() {
       let partiequise = document.getElementById("partiequise");
       let partieAccueil =document.getElementById("partieAccueil");
-      let partieConseil=document.getElementById("partieConseil");
       
         partiequise.style.display="block";
-        partieConseil.style.display="none";
         partieAccueil.style.display="none";
 
         partiequise.style.display="block";
-        partieConseil.style.display="none";
         partieAccueil.style.display="none";
   }
+
   let currentSlide = 0;
   let numberSlide = 22;
 
@@ -45,7 +26,19 @@ function Accueil(){
           quise[currentSlide-1].style.display ="none"; 
       }
   }
+  
+  let choi=document.getElementsByName('choi');
+  function currentSlid1(){
+    if(currentSlide == numberSlide){
+        choi[0].style.visibility="hidden";
+    } 
+  }
 
+  function currentSlidX(){
+    if(currentSlide != numberSlide){
+        choi[0].style.visibility="visible";
+    }
+  }
   
   function prev(){
       var quise = document.getElementsByName("quise");
@@ -59,20 +52,15 @@ function Accueil(){
          quise[currentSlide].style.display ="block"; 
          quise[currentSlide+1].style.display ="none";
      }
- }
-
-var numberSlideArab = 24;
- function nextArab(){
-    var quise = document.getElementsByName("quise");
-    
-
-    if (currentSlide == numberSlideArab) {
-        currentSlide = 0;
-        quise[currentSlide].style.display ="block"; 
-        quise[numberSlideArab].style.display ="none";
-    } else {
-        currentSlide = currentSlide + 1;
-        quise[currentSlide].style.display ="block"; 
-        quise[currentSlide-1].style.display ="none"; 
+  }
+  var age = document.getElementById('age');
+  function validAge(){
+   
+    if(age>15){
+        alert('Age vlidé :)');  
     }
-}
+    else {
+        alert ('!!!!! Prenez contact avec votre médecin généraliste au moindre doute. Cette application n’est pour l’instant pas adaptée aux personnes de moins de 15 ans. En cas d’urgence, appeler le 15.');
+        location.reload();
+    }    
+  }
